@@ -28,41 +28,45 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="order-summary">
-      <img
-        class="order-summary__image"
-        src="images/illustration-hero.svg"
-        alt="Illustration"
-      />
-      <div class="order-summary__content">
-        <h3 class="order-summary__title">Order Summary</h3>
-        <p class="order-summary__description">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-        <div class="annual-plan">
-          <img
-            class="annual-plan__icon"
-            src="images/icon-music.svg"
-            alt="Music icon"
-          />
-          <div class="annual-plan__info">
-            <div class="annual-plan__title">Annual Plan</div>
-            <div class="annual-plan__cost">$59.99/year</div>
+    <div class="container">
+      <div class="order-summary">
+        <img
+          class="order-summary__image"
+          src="images/illustration-hero.svg"
+          alt="Illustration"
+        />
+        <div class="order-summary__content">
+          <h3 class="order-summary__title">Order Summary</h3>
+          <p class="order-summary__description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="annual-plan order-summary__annual-plan">
+            <img
+              class="annual-plan__icon"
+              src="images/icon-music.svg"
+              alt="Music icon"
+            />
+            <div class="annual-plan__info">
+              <div class="annual-plan__title">Annual Plan</div>
+              <div class="annual-plan__cost">$59.99/year</div>
+            </div>
+            <a href="#" class="annual-plan__change-button">Change</a>
           </div>
-          <button href="#" class="annual-plan__change-button">Change</button>
+          <button class="order-summary__proceed-button">
+            Proceed to Payment
+          </button>
+          <button class="order-summary__cancel-button">Cancel Order</button>
         </div>
-        <button class="button button_color_primary">Proceed to Payment</button>
-        <button class="button button_secondary">Cancel Order</button>
       </div>
-    </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://github.com/maximivanov1711">maximivanov1711</a>.
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/maximivanov1711">maximivanov1711</a>.
+      </div>
     </div>
   </body>
 </html>
